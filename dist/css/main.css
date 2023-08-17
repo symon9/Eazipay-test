@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, li {
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input, button, textarea, select {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: middle;
+  background: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body > div {
+  margin: 0;
+}
+
+/* .header {
+  background-color: $primary-color;
+  font-family: $heading-font;
+  padding: $base-spacing;
+
+  @include respond-to($tablet) {
+    padding: $large-spacing;
+  }
+} */
+/* 
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Open+Sans&family=Poppins&family=Roboto:ital,wght@0,400;1,500&display=swap');
+</style>
+*/
+.header_container {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.header_container .logo .logo_h2 a {
+  text-decoration: none;
+  color: rgb(37, 41, 36);
+  font-weight: 700;
+  padding: 8px 0;
+}
+.header_container .header_container-nav .header_container-nav-main .nav-ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header_container .header_container-nav .header_container-nav-main .nav-ul li {
+  margin: 0.9rem 1.8rem;
+}
+.header_container .header_container-nav .header_container-nav-main .nav-ul li a {
+  font-size: 1.1rem;
+  font-weight: 500;
+  opacity: 0.9;
+}
+.header_container .registerAndSignin {
+  margin: 0.3rem 0rem;
+}
+.header_container .registerAndSignin .registerAndSignin_login {
+  padding: 6px 3rem;
+  border: 1px solid #000;
+  border-radius: 30px;
+}
+.header_container .registerAndSignin .registerAndSignin_register {
+  padding: 7px 3rem;
+  background-color: chartreuse;
+  border-radius: 30px;
+}/*# sourceMappingURL=main.css.map */

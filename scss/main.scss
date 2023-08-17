@@ -1,0 +1,65 @@
+@use 'resets';
+@use 'variables';
+
+
+/* 
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Open+Sans&family=Poppins&family=Roboto:ital,wght@0,400;1,500&display=swap');
+</style>
+*/
+
+
+.header_container{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+
+    .logo{
+
+        .logo_h2{
+            a{
+                text-decoration: none;
+                color: rgb(37, 41, 36);
+                font-weight: 700;
+                padding: 8px 0;
+            }
+        }
+    }
+
+
+    .header_container-nav{
+        .header_container-nav-main{
+            .nav-ul{
+                display: flex;
+                justify-content: space-evenly;
+
+                li{
+                    margin: .9rem 1.8rem;
+
+                    a{
+                        font-size: 1.1rem;
+                        font-weight: 500;
+                        opacity: .9;
+                    }
+                }
+                
+            }
+        }
+    }
+
+    .registerAndSignin{
+        margin: .3rem 0rem;
+        //display: flex;
+
+        .registerAndSignin_login{
+            padding: 6px 3rem;
+            border: 1px solid #000;
+            border-radius: 30px;
+        }
+        .registerAndSignin_register{
+            padding: 7px 3rem;
+            background-color: chartreuse;
+            border-radius: 30px;
+        }
+    }
+}

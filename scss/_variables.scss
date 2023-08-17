@@ -1,0 +1,51 @@
+// Colors
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$accent-color: #ffc107;
+
+// Fonts
+$body-font: 'Helvetica Neue', sans-serif;
+$heading-font: 'Roboto', sans-serif;
+
+// Spacing
+$base-spacing: 16px;
+$small-spacing: $base-spacing / 2;
+$large-spacing: $base-spacing * 2;
+
+// Breakpoints
+$mobile: 576px;
+$tablet: 768px;
+$desktop: 992px;
+$large-desktop: 1200px;
+
+// Z-Index
+$z-index-modal: 1000;
+$z-index-dropdown: 500;
+
+// Border radius
+$default-border-radius: 4px;
+
+// Box shadows
+$box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+// Transitions
+$transition-duration: 0.3s;
+$transition-easing: ease-in-out;
+
+// Media query mixin
+@mixin respond-to($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+// Usage example
+/* .header {
+  background-color: $primary-color;
+  font-family: $heading-font;
+  padding: $base-spacing;
+  
+  @include respond-to($tablet) {
+    padding: $large-spacing;
+  }
+} */
