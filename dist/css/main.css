@@ -300,4 +300,73 @@ body > div {
   font-size: 20px;
   margin-top: 32px;
   margin-bottom: 32px;
+}
+
+/* Works */
+.works_container .works_heading {
+  height: 116px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.works_container .works_heading h2 {
+  font-family: "Caprasimo", cursive;
+  font-size: 50px;
+  color: rgb(17, 69, 59);
+}
+.works_container .works_heading p {
+  font-size: 25px;
+  font-weight: 400;
+}
+.works_container .works_main_content {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  height: 682px;
+  width: 984px;
+  background-color: aliceblue;
+  margin-bottom: 4rem;
+}
+.works_container .works_main_content .works_content_colum_img {
+  position: relative;
+}
+.works_container .works_main_content .works_content_colum_img img {
+  position: absolute;
+  top: 2.5rem;
+}
+.works_container .works_main_content .works_content_colum_img .onbrdng-con {
+  position: absolute;
+  left: 109px;
+  top: -40px;
+}
+.works_container .works_main_content .works_content_colum_steps {
+  width: 360px;
+  position: relative;
+  right: -622px;
+}
+.works_container .works_main_content .works_content_colum_steps .step1 {
+  display: flex;
+  margin: 0 55px 15px 0;
+  position: relative;
+}
+.works_container .works_main_content .works_content_colum_steps .step1 .brd-left {
+  position: absolute;
+  top: 40px;
+}
+.works_container .works_main_content .works_content_colum_steps .step1 .step1-con .num1 {
+  width: 44px;
+  height: 44px;
+  font-size: 33px;
+  padding: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(17, 69, 59);
+  color: #fff;
+  border-radius: 16px;
+  font-weight: 500;
+  box-shadow: 0px 20px 48px 0px rgba(170, 170, 170, 0.29);
+}
+.works_container .works_main_content .works_content_colum_steps .step1 .step1-con .step1_name {
+  width: 360px;
+  padding: 5px 0;
 }/*# sourceMappingURL=main.css.map */
