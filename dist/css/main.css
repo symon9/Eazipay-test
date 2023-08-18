@@ -79,6 +79,7 @@ body > div {
   border: 1px solid #11453B;
   border-radius: 30px;
   margin-right: 1rem;
+  transition: all 0.4s ease-in-out;
 }
 .header_container .registerAndSignin .registerAndSignin_login:hover {
   background-color: #11453B;
@@ -89,6 +90,10 @@ body > div {
   background-color: #11453B;
   color: #fff;
   border-radius: 30px;
+  transition: all 0.4s ease-in-out;
+}
+.header_container .registerAndSignin .registerAndSignin_register:hover {
+  background-color: #EA4E4B;
 }
 
 .hero {
@@ -126,6 +131,10 @@ body > div {
   color: #fff;
   margin: 1rem 0;
   margin-bottom: 2rem;
+  transition: all 0.4s ease-in-out;
+}
+.hero .hero-content .column-center .freef:hover {
+  background-color: #EA4E4B;
 }
 .hero .hero-content .column-center p {
   margin-top: 1rem;
