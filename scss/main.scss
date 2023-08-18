@@ -2,13 +2,6 @@
 @use 'variables';
 
 
-/* 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Open+Sans&family=Poppins&family=Roboto:ital,wght@0,400;1,500&display=swap');
-</style>
-*/
-
-
 .header_container{
     display: flex;
     justify-content: space-around;
@@ -69,7 +62,6 @@
 // main.scss
 
 .hero {
-    //background-color: #f4f4f4;
     padding: 40px 0;
     margin-bottom: 3rem;
     
@@ -207,7 +199,6 @@
                 }
             }
             .ib_content{
-                //width: 1100px;
                 height: 320px;
                 color: #fff;
                 text-align: left;
@@ -249,7 +240,7 @@
                     }
                 }
                 .ib_content_one:hover ~.ib_content_two{
-                    transform: translateX(200px); /* Adjust the distance as needed */
+                    transform: translateX(200px); 
                   }
                 .ib_content_two{
                     width: 524px;
@@ -290,7 +281,7 @@
                     }
                 }
                 .ib_content_two:hover {
-                    transform: translateX(-200px); /* Adjust the distance as needed */
+                    transform: translateX(-200px);
                   }
                 .ib_content_three{
                     width: 524px;
@@ -328,12 +319,8 @@
                     }
                 }
                 .ib_content_three:hover {
-                    transform: translateX(-45px); /* Adjust the distance as needed */
+                    transform: translateX(-45px); 
                   }
-
-
-
-
             }
             .ib_p{
                 font-size: 20px;
