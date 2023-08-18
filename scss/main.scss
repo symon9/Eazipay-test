@@ -33,6 +33,9 @@
                         font-weight: 500;
                         opacity: .9;
                     }
+                    a:hover{
+                        color: #EA4E4B;
+                    }
                 }
                 
             }
@@ -48,12 +51,17 @@
             border-radius: 30px;
             margin-right: 1rem;
         }
+        .registerAndSignin_login:hover{
+            background-color: #11453B;
+            color: #fff;
+        }
         .registerAndSignin_register{
             padding: 7px 3rem;
             background-color: #11453B;
             color: #fff;
             border-radius: 30px;
         }
+        
     }
 }
 
@@ -348,7 +356,7 @@
         p{
             font-size: 25px;
             font-weight: 400;
-        }
+        } 
     }
     .works_main_content{
         display: flex;

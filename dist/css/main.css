@@ -46,11 +46,6 @@ body > div {
     padding: $large-spacing;
   }
 } */
-/* 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Open+Sans&family=Poppins&family=Roboto:ital,wght@0,400;1,500&display=swap');
-</style>
-*/
 .header_container {
   display: flex;
   justify-content: space-around;
@@ -73,6 +68,9 @@ body > div {
   font-weight: 500;
   opacity: 0.9;
 }
+.header_container .header_container-nav .header_container-nav-main .nav-ul li a:hover {
+  color: #EA4E4B;
+}
 .header_container .registerAndSignin {
   margin: 0.3rem 0rem;
 }
@@ -81,6 +79,10 @@ body > div {
   border: 1px solid #11453B;
   border-radius: 30px;
   margin-right: 1rem;
+}
+.header_container .registerAndSignin .registerAndSignin_login:hover {
+  background-color: #11453B;
+  color: #fff;
 }
 .header_container .registerAndSignin .registerAndSignin_register {
   padding: 7px 3rem;
@@ -227,7 +229,7 @@ body > div {
   width: 400px;
 }
 .page-container .container .centered-div .ib_content .ib_content_one:hover ~ .ib_content_two {
-  transform: translateX(200px); /* Adjust the distance as needed */
+  transform: translateX(200px);
 }
 .page-container .container .centered-div .ib_content .ib_content_two {
   width: 524px;
@@ -261,7 +263,7 @@ body > div {
   width: 400px;
 }
 .page-container .container .centered-div .ib_content .ib_content_two:hover {
-  transform: translateX(-200px); /* Adjust the distance as needed */
+  transform: translateX(-200px);
 }
 .page-container .container .centered-div .ib_content .ib_content_three {
   width: 524px;
@@ -294,7 +296,7 @@ body > div {
   width: 400px;
 }
 .page-container .container .centered-div .ib_content .ib_content_three:hover {
-  transform: translateX(-45px); /* Adjust the distance as needed */
+  transform: translateX(-45px);
 }
 .page-container .container .centered-div .ib_p {
   font-size: 20px;
