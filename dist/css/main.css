@@ -456,4 +456,48 @@ body > div {
 .works_container .works_main_content .works_content_colum_steps .step3 .step3_con .step3_desc {
   width: 360px;
   padding: 10px 0;
+}
+
+.salaryPay {
+  height: 750px;
+  background: rgb(255, 233, 231);
+  position: relative;
+}
+.salaryPay .ovr-con img {
+  width: 100%;
+  background-size: cover;
+}
+.salaryPay .salaryPay_container {
+  width: 1056px;
+  height: 514.6871337891px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 20%;
+  bottom: 20%;
+  left: 15%;
+  right: 18%;
+}
+.salaryPay .salaryPay_container .salaryPay_desc {
+  width: 500px;
+  height: 514px;
+  padding-top: 49px;
+}
+.salaryPay .salaryPay_container .salaryPay_desc h2 {
+  font-family: "Caprasimo", cursive;
+  font-size: 45px;
+  line-height: 64px;
+  color: rgb(41, 42, 41);
+}
+.salaryPay .salaryPay_container .salaryPay_desc h2 span {
+  color: #EA4E4B;
+}
+.salaryPay .salaryPay_container .salaryPay_desc p {
+  padding-top: 42px;
+}
+.salaryPay .salaryPay_container .salaryPay_img {
+  background-color: gold;
+  width: 500px;
+  height: 514px;
 }/*# sourceMappingURL=main.css.map */
