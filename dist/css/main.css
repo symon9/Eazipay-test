@@ -536,4 +536,117 @@ body > div {
   z-index: 35;
   top: 15px;
   left: -15px;
+}
+
+/* column-Exclusive-Demo */
+.Exclusive-Demo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 900px;
+  position: relative;
+}
+.Exclusive-Demo-container .ed-bg {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+}
+.Exclusive-Demo-container .ed-bg-lft {
+  position: absolute;
+  left: 0px;
+  top: 3.5rem;
+}
+
+.Exclusive-Demo-container-main {
+  width: 1128px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.Exclusive-Demo-container-main .Exclusive-Demo-column1 h2 {
+  font-family: "Caprasimo", cursive;
+  font-size: 52px;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(17, 69, 59);
+}
+.Exclusive-Demo-container-main .Exclusive-Demo-column1 p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Exclusive-Demo-container-main .Exclusive-Demo-column2 {
+  width: 552px;
+  height: 704px;
+  padding: 32px;
+  border-radius: 32px;
+  border-width: 1px;
+  gap: 10px;
+  background-color: #fff;
+  box-shadow: 0px 20px 48px 0px rgba(170, 170, 170, 0.29);
+}
+.Exclusive-Demo-container-main .Exclusive-Demo-column2 .Exclusive-Demo-column2-content form .head h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.Exclusive-Demo-container-main .Exclusive-Demo-column2 .Exclusive-Demo-column2-content form .head p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.Exclusive-Demo-container-main .Exclusive-Demo-column2 .Exclusive-Demo-column2-content form .button-ed {
+  width: 488px;
+  height: Fill 56px;
+  padding: 8px;
+  border-radius: 16px;
+  border-width: 1.1504164934px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #E7E8E7;
+  gap: 11px;
+}
+.Exclusive-Demo-container-main .Exclusive-Demo-column2 .Exclusive-Demo-column2-content form .button-ed .individual {
+  width: 230px;
+  height: 40px;
+  padding: 8px 11.5041646957px 8px 11.5041646957px;
+  border-radius: 12px;
+  gap: 11.5041646957px;
+  background: rgb(17, 69, 59);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.1000000015px;
+  text-align: center;
+}
+.Exclusive-Demo-container-main .Exclusive-Demo-column2 .Exclusive-Demo-column2-content form .button-ed .company {
+  width: 230px;
+  height: 40px;
+  padding: 8px 11.5041646957px 8px 11.5041646957px;
+  border-radius: 12px;
+  gap: 11.5041646957px;
+  background: rgb(242, 241, 241);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.1000000015px;
+  text-align: center;
+}
+
+.column-Exclusive-Demo {
+  flex: 1; /* Distribute available space equally between columns */
+  padding: 20px;
+  margin: 10px;
 }/*# sourceMappingURL=main.css.map */
