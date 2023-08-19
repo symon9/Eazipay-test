@@ -467,6 +467,14 @@ body > div {
   width: 100%;
   background-size: cover;
 }
+.salaryPay .ovr-con .frame {
+  width: 150px;
+  height: 125px;
+  position: absolute;
+  top: 0px;
+  left: 161px;
+  z-index: 10;
+}
 .salaryPay .salaryPay_container {
   width: 1056px;
   height: 514.6871337891px;
@@ -495,9 +503,37 @@ body > div {
 }
 .salaryPay .salaryPay_container .salaryPay_desc p {
   padding-top: 42px;
+  font-weight: 500;
+  font-size: 18px;
 }
 .salaryPay .salaryPay_container .salaryPay_img {
-  background-color: gold;
-  width: 500px;
-  height: 514px;
+  width: 500px; /* Set the width as needed */
+  height: 514px; /* Set the height as needed */
+}
+.salaryPay .salaryPay_container .salaryPay_img .salaryPay_img-con {
+  position: relative;
+}
+.salaryPay .salaryPay_container .salaryPay_img .salaryPay_img-con img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.salaryPay .salaryPay_container .salaryPay_img .salaryPay_img-con img:nth-child(1) {
+  z-index: 50;
+  top: -30px; /* 35px */
+}
+.salaryPay .salaryPay_container .salaryPay_img .salaryPay_img-con img:nth-child(2) {
+  z-index: 45;
+}
+.salaryPay .salaryPay_container .salaryPay_img .salaryPay_img-con img:nth-child(3) {
+  z-index: 70;
+  left: -100px;
+  top: 30px;
+}
+.salaryPay .salaryPay_container .salaryPay_img .salaryPay_img-con img:nth-child(4) {
+  z-index: 35;
+  top: 15px;
+  left: -15px;
 }/*# sourceMappingURL=main.css.map */
