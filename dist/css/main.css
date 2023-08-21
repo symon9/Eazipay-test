@@ -684,9 +684,7 @@ body > div {
 }
 
 /* Ends */
-/* footer */
-/* Variables */
-/* Styles */
+/* Styles footer */
 .footerContainer {
   display: flex;
   justify-content: space-around;
@@ -701,6 +699,9 @@ body > div {
 .footerContainer .contfooter {
   flex: 1;
   padding: 10px;
+}
+.footerContainer .containerOne {
+  padding-right: 9rem;
 }
 .footerContainer .containerOne .logo {
   margin-bottom: 2rem;
@@ -718,16 +719,36 @@ body > div {
   text-decoration: none;
   font-size: 24px;
 }
+.footerContainer .containerOne .social-icons a i {
+  color: rgb(81, 82, 81);
+}
+.footerContainer .containerOne .social-icons .ig-lgf {
+  margin-left: 0px;
+}
+.footerContainer .containerTwo h3, .footerContainer .containerThree h3, .footerContainer .containerFour h3, .footerContainer .containerFive h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+  color: rgb(41, 42, 41);
+}
 .footerContainer .containerTwo ul, .footerContainer .containerThree ul, .footerContainer .containerFour ul, .footerContainer .containerFive ul {
   list-style-type: none;
   padding: 0;
 }
 .footerContainer .containerTwo ul li, .footerContainer .containerThree ul li, .footerContainer .containerFour ul li, .footerContainer .containerFive ul li {
-  margin: 5px 0;
+  margin: 12px 0;
 }
 .footerContainer .containerTwo ul li a, .footerContainer .containerThree ul li a, .footerContainer .containerFour ul li a, .footerContainer .containerFive ul li a {
   text-decoration: none;
   color: rgb(124, 124, 124);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.footerContainer .containerTwo ul li a:hover, .footerContainer .containerThree ul li a:hover, .footerContainer .containerFour ul li a:hover, .footerContainer .containerFive ul li a:hover {
+  color: #EA4E4B;
 }
 .footerContainer .email-input {
   display: flex;
@@ -737,12 +758,16 @@ body > div {
 }
 .footerContainer .email-input input {
   padding: 5px 30px 5px 5px;
+  background-color: rgb(242, 241, 241);
+  border-radius: 16px;
+  height: 40px;
 }
 .footerContainer .email-input i {
   position: absolute;
   top: 50%;
-  right: 5px;
+  right: 13px;
   transform: translateY(-50%);
+  color: rgb(124, 124, 124);
 }
 
 .containerFive p a {
