@@ -144,6 +144,33 @@ body > div {
   font-weight: 500;
 }
 
+#headerAndHero {
+  position: relative;
+}
+#headerAndHero .grp16 {
+  position: absolute;
+  top: 0px;
+  z-index: -10;
+}
+#headerAndHero .grp17 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -10;
+}
+#headerAndHero .grp18 {
+  position: absolute;
+  top: 130px;
+  left: 0px;
+  z-index: -10;
+}
+#headerAndHero .grp19 {
+  position: absolute;
+  top: 130px;
+  right: 0px;
+  z-index: -10;
+}
+
 .app-logos {
   display: flex;
   position: relative;
