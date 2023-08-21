@@ -644,9 +644,108 @@ body > div {
   letter-spacing: 0.1000000015px;
   text-align: center;
 }
+.Exclusive-Demo-container-main .Exclusive-Demo-column2 .Exclusive-Demo-column2-content form .ed-entry-form p input {
+  width: 100%;
+  height: 48px;
+  padding: 16px;
+  border-radius: 16px;
+  border-width: 1px;
+  gap: 8px;
+  margin-top: 0.6rem;
+  border: 1px solid rgb(181, 182, 181);
+}
+.Exclusive-Demo-container-main .Exclusive-Demo-column2 .Exclusive-Demo-column2-content form .ed-entry-form p input ::-moz-placeholder {
+  color: #E7E8E7;
+}
+.Exclusive-Demo-container-main .Exclusive-Demo-column2 .Exclusive-Demo-column2-content form .ed-entry-form p input ::placeholder {
+  color: #E7E8E7;
+}
+.Exclusive-Demo-container-main .Exclusive-Demo-column2 .Exclusive-Demo-column2-content form .ed-entry-form p:nth-child(1) {
+  margin-top: 2rem;
+}
+.Exclusive-Demo-container-main .Exclusive-Demo-column2 .Exclusive-Demo-column2-content form .ed-entry-form button {
+  width: 100%;
+  height: 48px;
+  padding: 12px 28px 12px 28px;
+  border-radius: 24px;
+  gap: 8px;
+  background: rgb(17, 69, 59);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
 
 .column-Exclusive-Demo {
   flex: 1; /* Distribute available space equally between columns */
   padding: 20px;
   margin: 10px;
+}
+
+/* Ends */
+/* footer */
+/* Variables */
+/* Styles */
+.footerContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 64px;
+  border-top: 1px solid rgb(234, 234, 234);
+}
+@media (max-width: 768px) {
+  .footerContainer {
+    flex-direction: column;
+  }
+}
+.footerContainer .contfooter {
+  flex: 1;
+  padding: 10px;
+}
+.footerContainer .containerOne .logo {
+  margin-bottom: 2rem;
+}
+.footerContainer .containerOne p {
+  color: rgb(124, 124, 124);
+}
+.footerContainer .containerOne .social-icons {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.footerContainer .containerOne .social-icons a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 24px;
+}
+.footerContainer .containerTwo ul, .footerContainer .containerThree ul, .footerContainer .containerFour ul, .footerContainer .containerFive ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footerContainer .containerTwo ul li, .footerContainer .containerThree ul li, .footerContainer .containerFour ul li, .footerContainer .containerFive ul li {
+  margin: 5px 0;
+}
+.footerContainer .containerTwo ul li a, .footerContainer .containerThree ul li a, .footerContainer .containerFour ul li a, .footerContainer .containerFive ul li a {
+  text-decoration: none;
+  color: rgb(124, 124, 124);
+}
+.footerContainer .email-input {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  position: relative;
+}
+.footerContainer .email-input input {
+  padding: 5px 30px 5px 5px;
+}
+.footerContainer .email-input i {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+}
+
+.containerFive p a {
+  color: rgb(124, 124, 124);
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
